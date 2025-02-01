@@ -1,0 +1,35 @@
+.completed {
+    text-decoration: line-through;
+}
+
+header {
+    background-color: rgb(130, 255, 255);
+    padding: 8px 0;
+    color: rgb(4, 44, 61);
+    display: flex;
+    border-bottom: 16px solid rgb(38, 38, 219);
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+form{
+    padding: 24px 0;
+    text-align: center;
+}
+
+button{
+    background-color: rgb(41, 153, 116);
+}
+
+ul {
+    list-style-type: none; /* Remove as bolinhas da lista */
+    padding: 0;
+    
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer; /* Muda o cursor ao passar por cima da tarefa */
+    
+}
